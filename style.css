@@ -530,8 +530,8 @@ footer {
 
 @media screen and (max-width:600px) {
 
-    body {
-        width: 130%;
+    body{
+        width: 130vw;
     }
 
     /* header */
@@ -560,15 +560,22 @@ footer {
     }
 
     .facebook {
-        height: 180vh;
+        height: 220vh;
     }
 
     .meta-container {
         flex-direction: column;
 
-
     }
-
+    .meta-container img{
+        width: 550px;
+    }
+    .mini img{
+        width: 300px;
+    }
+    .mini-2 img{
+        width: 300px;
+    }
     .first-meta-AI {
         margin: 130px 0;
     }
@@ -597,6 +604,7 @@ footer {
 
     .mark img {
         margin-top: 50px;
+        
 
     }
 
