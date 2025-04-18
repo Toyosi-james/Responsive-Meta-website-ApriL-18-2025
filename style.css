@@ -1,0 +1,618 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+
+}
+
+/* Header */
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 200%;
+}
+
+.menu img {
+    width: 40px;
+    display: none;
+}
+
+.nav-logo img {
+    height: 40px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-logo h2 {
+    font-weight: 500;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-grow: 1;
+}
+
+.nav-links a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+
+
+
+}
+
+.nav-right a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Header */
+/* Hero */
+.hero {
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+
+
+
+}
+
+.hero-vid {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.hero-text {
+    position: relative;
+    top: 50%;
+    text-align: center;
+
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.hero-text button {
+    padding: 17px;
+    font-family: "inter", "sans-serif";
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: 700;
+
+}
+
+/* Hero */
+
+/* Facebook pictures and text */
+.facebook {
+    height: 100vh;
+    margin: 80px auto;
+    padding: 20px 0;
+    max-width: 100%;
+}
+
+.facebook-text h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.facebook-pictures img {
+    width: 300px;
+    border-radius: 20px;
+
+}
+
+.facebook-text {
+    text-align: center;
+
+}
+
+.facebook-pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0;
+    
+
+}
+
+.facebook-pictures h3 {
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+.facebook-pictures h4 span {
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    padding: 2px 5px;
+}
+
+.facebook-text button {
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 30px;
+    outline: none;
+    border: 0.5px solid gray;
+    font-family: "inter", "sans-serif";
+    font-weight: 700;
+    margin-top: 50px;
+    background-color: transparent;
+}
+
+/* Facebook pictures and text  */
+/* Meta man and woman */
+
+
+.meta-text {
+    text-align: center;
+    font-size: 30px;
+    margin: 100px auto;
+
+
+
+}
+
+.meta-text h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.first-meta img {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.second-meta img {
+    width: 630px;
+    border-radius: 20px;
+}
+
+.mini img {
+    width: 320px;
+}
+
+.mini-2 img {
+    width: 320px;
+
+}
+
+.meta-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 40px;
+
+
+
+
+}
+
+.meta-image {
+    position: relative;
+}
+
+.meta-image2 {
+    position: relative;
+}
+
+.mini {
+    position: absolute;
+    top: 95%;
+    left: 20%;
+}
+
+.mini-2 {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+.first-meta-AI {
+
+    margin: 170px 0;
+    text-align: center;
+
+
+}
+
+.second-meta-AI {
+    margin: 170px;
+    text-align: center;
+}
+
+.first-meta-AI h1 {
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.first-meta-AI p {
+
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-weight: 300;
+    color: gray;
+    padding: auto;
+
+}
+
+.second-meta-AI h1 {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+
+.second-meta-AI p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-weight: 300;
+    color: gray;
+    padding: auto;
+
+}
+
+.first-meta-AI button {
+    padding: 15px 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: "Inter", "sans-serif";
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.second-meta-AI button {
+    padding: 15px 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: "Inter", "sans-serif";
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/* second video */
+.second-text {
+    text-align: center;
+}
+
+.second-text h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.second-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.second-btn button {
+    padding: 11px 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.second-new-video {
+    width: 67%;
+
+    border-radius: 50px;
+    
+}
+
+.second-btn span {
+    border: 0.5px solid gray;
+    border-radius: 30px;
+    padding: 2px 5px;
+}
+
+/* actions */
+.actions img {
+    height: 100px;
+    border-radius: 20px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 100px auto;
+
+
+
+}
+
+.actions-text h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.actions-text h3 {
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.actions-text button {
+    padding: 10px 30px;
+    border: none;
+    background-color: blue;
+    font-family: "Inter", "sans-serif";
+    font-size: 15px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+
+.action-1 {
+    height: 150px;
+    background-color: rgb(238, 231, 231);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.action-1 h3 span {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.action-2 {
+    height: 150px;
+    background-color: rgb(238, 231, 231);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 20px;
+}
+
+.action-2 h3 span {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.action-3 {
+    height: 150px;
+    background-color: rgb(238, 231, 231);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 20px;
+}
+
+.action-3 h3 span {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* mark */
+.mark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.mark img {
+    border-radius: 30px;
+}
+
+.mark-right h2 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.mark-right p {
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.mark-right button {
+    padding: 12px 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: blue;
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+/* footer */
+.footer-logo img {
+    width: 30px
+}
+
+.footer-logo h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 50px 20px;
+    margin: 20px 0;
+}
+
+.footer-icons img {
+    width: 20px;
+    margin: 20px;
+}
+
+footer {
+    height: 110vh;
+    display: flex;
+    gap: 50px;
+    margin: 70px auto;
+    border-top: 1px solid rgba(238, 231, 231)
+}
+
+.meta-info {
+    display: flex;
+    padding: 50px 20px;
+    gap: 70px;
+}
+
+.meta-info1 {
+    margin: 20px 0;
+}
+
+.meta-info2 {
+    margin: 20px 0;
+}
+
+.meta-info3 {
+    margin: 20px 0;
+}
+
+.meta-info h3 {
+    font-size: 20px;
+}
+
+.meta-info p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+    body {
+        width: 130%;
+    }
+
+    /* header */
+    header a {
+        display: none;
+    }
+
+    .menu img {
+        display: block;
+        width: 20%;
+
+    }
+
+    .nav-right {
+        justify-content: center;
+        width: 80%;
+        flex-grow: 0;
+    }
+
+    /* header */
+
+
+    .facebook-pictures {
+        flex-direction: column;
+
+    }
+
+    .facebook {
+        height: 180vh;
+    }
+
+    .meta-container {
+        flex-direction: column;
+
+
+    }
+
+    .first-meta-AI {
+        margin: 130px 0;
+    }
+
+    .second-meta-AI {
+        margin: 130px 0;
+    }
+
+    .second-new-video {
+        width: 80%;
+    
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+
+    .action-1 {
+        margin-top: 45px;
+    }
+
+    .mark {
+        flex-direction: column-reverse;
+
+    }
+
+    .mark img {
+        margin-top: 50px;
+
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .meta-info p {
+        display: none;
+
+    }
+
+    .meta-info {
+        flex-direction: column;
+
+    }
+
+
+}
